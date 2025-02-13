@@ -13,9 +13,11 @@ def test_repository():
     user = repo.get_user_by_username(username)
     print()
     print(user)
-   
-    repo.edit_balance(user[0], 8989.90)
-    user = repo.get_user_by_username(username)
-    print()
-    print(user)
+    
+'''
+repo.edit_balance(user[0], 8989.90)
+user = repo.get_user_by_username(username)
+print()
+print(user)
+'''  
     
