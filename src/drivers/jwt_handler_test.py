@@ -1,4 +1,4 @@
-from .jwt_handler import JWTHandler
+from src.drivers.jwt_handler import JWTHandler
 
 def test_jwt_handler():
     jwt_handler = JWTHandler()

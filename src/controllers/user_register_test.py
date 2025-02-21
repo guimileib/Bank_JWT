@@ -21,6 +21,6 @@ def test_registry():
     assert response["type"] == "User"
     assert response["username"] == username
     
-    assert repository.registry_user_attributter["username"] == username
-    assert repository.registry_user_attributter["password"] is not None
-    assert repository.registry_user_attributter["password"] != password
+    assert repository.registry_user_attributtes["username"] == username
+    assert repository.registry_user_attributtes["password"] is not None
+    assert repository.registry_user_attributtes["password"] != password
