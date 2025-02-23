@@ -1,6 +1,8 @@
 from src.models.interface.user_repository import UserRepositoryInterface
+from typing import Dict
+from src.controllers.interfaces.balance_editor import BalanceEditorInterface    
 
-class BalanceEditor:
+class BalanceEditor(BalanceEditorInterface):
     def __init__(self, user_repository: UserRepositoryInterface) -> None:
         self.__user_repository = user_repository
         
@@ -11,4 +13,3 @@ class BalanceEditor:
             "count": 1,
             "new_balance": new_balance
         }
-
