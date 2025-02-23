@@ -13,6 +13,3 @@ class HttpRequest:
         self.params = params or {}
         self.token_infos = token_infos or {}
         
-
-        
-        
